@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-zzish",
+  "version": "0.0.2",
+  "description": "Eslint Zzish Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zzish/eslint-config-zzish.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration",
+    "zzish"
+  ],
+  "author": "Zzish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zzish/eslint-config-zzish/issues"
+  },
+  "homepage": "https://github.com/Zzish/eslint-config-zzish#readme",
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

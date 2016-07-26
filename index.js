@@ -1,6 +1,6 @@
-module.export = {
+module.exports = {
     "parser": "babel-eslint",
-    "extends": "airbnb",
+    "extends": "eslint-config-airbnb",
     "plugins": [
         "react",
         "flow-vars"
@@ -19,8 +19,6 @@ module.export = {
         "consistent-return": 0,
         "arrow-body-style": 0,
         "no-use-before-define": 0,
-
-
         "react/jsx-boolean-value": 1,
         "react/jsx-closing-bracket-location": 1,
         "react/jsx-space-before-closing": 1,

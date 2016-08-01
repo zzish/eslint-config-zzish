@@ -13,6 +13,7 @@ module.exports = {
         "react/jsx-no-bind": 0,
         "react/jsx-indent-props": [1, 4],
         "react/sort-comp": 0,
+        "flow-vars/define-flow-type": 1,
         "flow-vars/use-flow-type": 1,
         "space-infix-ops": 0,
         "no-param-reassign": 0,

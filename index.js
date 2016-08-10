@@ -44,7 +44,7 @@ module.exports = {
         "jsx-quotes": 1,
         "key-spacing": 1,
         "keyword-spacing": 1,
-        "max-len": 1,
+        "max-len": [1, {"ignoreTrailingComments": true}],
         "no-case-declarations": 1,
         "no-else-return": 1,
         "no-empty": 1,

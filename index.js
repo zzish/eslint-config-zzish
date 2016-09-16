@@ -5,6 +5,10 @@ module.exports = {
         "react",
         "flowtype"
     ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
     "rules": {
         "indent": [1, 4, {"SwitchCase": 1}],
         "quotes": [1, "double"],
@@ -15,7 +19,10 @@ module.exports = {
         "no-param-reassign": 0,
         "consistent-return": 0,
         "arrow-body-style": 0,
+        "arrow-parens": 0,
         "no-use-before-define": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-named-as-default": 0,
         "react/prefer-stateless-function": 0,
         "react/jsx-no-bind": 0,
         "react/jsx-indent": [1, 4],
@@ -24,9 +31,11 @@ module.exports = {
         "react/jsx-boolean-value": 1,
         "react/jsx-closing-bracket-location": 1,
         "react/jsx-space-before-closing": 1,
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/no-multi-comp": 1,
         "react/prefer-es6-class": 1,
         "react/prop-types": 1,
+        "react/forbid-prop-types": 0,
         "array-bracket-spacing": 1,
         "array-callback-return": 1,
         "arrow-spacing": 1,
@@ -45,7 +54,12 @@ module.exports = {
         "jsx-quotes": 1,
         "key-spacing": 1,
         "keyword-spacing": 1,
-        "max-len": [1, {"ignoreTrailingComments": true}],
+        "no-mixed-operators": 1,
+        "max-len": [1, {
+            "ignoreStrings": true,
+            "ignoreTrailingComments": true,
+            "code": 100
+        }],
         "no-case-declarations": 1,
         "no-else-return": 1,
         "no-empty": 1,

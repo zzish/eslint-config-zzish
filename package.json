@@ -21,7 +21,7 @@
     "url": "https://github.com/Zzish/eslint-config-zzish/issues"
   },
   "homepage": "https://github.com/Zzish/eslint-config-zzish#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.6.1",
     "eslint-config-airbnb": "^12.0.0",

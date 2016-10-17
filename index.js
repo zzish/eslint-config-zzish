@@ -103,6 +103,7 @@ module.exports = {
         "space-in-parens": 1,
         "spaced-comment": 1,
         "vars-on-top": 1,
-        "wrap-iife": 1
+        "wrap-iife": 1,
+        "forbid-prop-types": [0, { "forbid": [] }]
     }
 };

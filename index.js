@@ -60,6 +60,7 @@ module.exports = {
         "max-len": [1, {
             "ignoreStrings": true,
             "ignoreTrailingComments": true,
+            "ignoreUrls": true,
             "code": 100
         }],
         "no-case-declarations": 1,

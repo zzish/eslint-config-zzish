@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zzish",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Eslint Zzish Configuration",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/Zzish/eslint-config-zzish/issues"
   },
   "homepage": "https://github.com/Zzish/eslint-config-zzish#readme",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "7.1.1",
     "eslint": "3.13.1",
     "eslint-config-airbnb": "14.0.0",

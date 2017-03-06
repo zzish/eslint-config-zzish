@@ -1,11 +1,13 @@
 module.exports = {
     "parser": "babel-eslint",
     "extends": [
-        "eslint-config-airbnb"
+        "eslint-config-airbnb",
+        "plugin:promise/recommended"
     ],
     "plugins": [
         "react",
-        "flowtype"
+        "flowtype",
+         "promise"
     ],
     "env": {
         "browser": true,
@@ -98,6 +100,7 @@ module.exports = {
         "prefer-const": 1,
         "prefer-rest-params": 1,
         "prefer-template": 1,
+        "promise/catch-or-return",
         "quote-props": 1,
         "radix": 1,
         "semi": 1,

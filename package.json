@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zzish",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Eslint Zzish Configuration",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "eslint-plugin-flowtype": "2.30.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "6.9.0"
   }
 }

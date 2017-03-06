@@ -7,7 +7,7 @@ module.exports = {
     "plugins": [
         "react",
         "flowtype",
-         "promise"
+        "promise"
     ],
     "env": {
         "browser": true,
@@ -100,7 +100,7 @@ module.exports = {
         "prefer-const": 1,
         "prefer-rest-params": 1,
         "prefer-template": 1,
-        "promise/catch-or-return",
+        "promise/catch-or-return": 1,
         "quote-props": 1,
         "radix": 1,
         "semi": 1,

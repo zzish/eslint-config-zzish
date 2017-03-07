@@ -23,8 +23,8 @@
   "homepage": "https://github.com/Zzish/eslint-config-zzish#readme",
   "dependencies": {
     "babel-eslint": "7.1.1",
-    "eslint": "3.13.1",
-    "eslint-config-airbnb": "14.0.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-flowtype": "2.30.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",

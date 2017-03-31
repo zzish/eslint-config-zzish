@@ -105,6 +105,7 @@ module.exports = {
         "promise/avoid-new": 0,
         "promise/catch-or-return": "error",
         "promise/no-nesting": 0,
+        "promise/no-promise-in-callback": 0,
         "quote-props": 1,
         "radix": 1,
         "semi": 1,

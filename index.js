@@ -63,6 +63,7 @@ module.exports = {
         "dot-notation": 1,
         "eqeqeq": [1, "allow-null"],
         "guard-for-in": 1,
+        "jsx-a11y/href-no-hash": 0,
         "jsx-quotes": 1,
         "key-spacing": 1,
         "keyword-spacing": 1,

@@ -30,6 +30,7 @@ module.exports = {
         "import/no-named-as-default": 0,
         "import/prefer-default-export": 0,
         "react/prefer-stateless-function": 0,
+        "react/require-default-props": 0,
         "react/jsx-no-bind": 0,
         "react/jsx-indent": [1, 4],
         "react/jsx-indent-props": [1, 4],
@@ -46,6 +47,7 @@ module.exports = {
         "array-callback-return": 1,
         "arrow-spacing": 1,
         "block-scoped-var": 1,
+        "block-no-empty": null,
         "brace-style": 1,
         "camelcase": 1,
         "comma-dangle": [1, {

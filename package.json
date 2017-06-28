@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zzish",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Eslint Zzish Configuration",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-flowtype": "^2.34.0",
     "eslint-plugin-import": "^2.6.0",
-    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0"
   }

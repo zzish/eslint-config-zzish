@@ -46,7 +46,7 @@ module.exports = {
         "import/no-extraneous-dependencies": 0,
         "import/no-named-as-default": 0,
         "import/prefer-default-export": 0,
-        "indent": [1, 5, {"SwitchCase": 1}],
+        "indent": [1, 4, {"SwitchCase": 1}],
         "jsx-a11y/href-no-hash": 0,
         "jsx-quotes": 1,
         "key-spacing": 1,

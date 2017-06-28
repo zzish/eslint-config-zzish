@@ -17,7 +17,7 @@ module.exports = {
         "array-callback-return": 1,
         "arrow-body-style": 0,
         "array-bracket-spacing": 1,
-        "arrow-parens": 0,
+        "arrow-parens": ["warn", "always"],
         "arrow-spacing": 1,
         "block-no-empty": 0,
         "block-scoped-var": 1,

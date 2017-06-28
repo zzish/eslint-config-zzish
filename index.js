@@ -41,7 +41,7 @@ module.exports = {
         "eqeqeq": [1, "allow-null"],
         "flowtype/define-flow-type": 1,
         "flowtype/use-flow-type": 1,
-        "forbid-prop-types": [0, { "forbid": [] }]
+        "forbid-prop-types": [0, { "forbid": [] }],
         "guard-for-in": 1,
         "import/no-extraneous-dependencies": 0,
         "import/no-named-as-default": 0,
@@ -125,6 +125,6 @@ module.exports = {
         "space-infix-ops": 0,
         "spaced-comment": 1,
         "vars-on-top": 1,
-        "wrap-iife": 1,
+        "wrap-iife": 1
     }
 };

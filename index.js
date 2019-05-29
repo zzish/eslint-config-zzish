@@ -82,6 +82,7 @@ module.exports = {
         "no-sparse-arrays": 1,
         "no-trailing-spaces": 1,
         "no-undef": 1,
+        "no-underscore-dangle": 0,
         "no-unneeded-ternary": 1,
         "no-unreachable": 1,
         "no-unused-expressions": 1,

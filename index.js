@@ -7,11 +7,14 @@ module.exports = {
     "plugins": [
         "react",
         "flowtype",
-        "promise"
+        "promise",
+        "jest",
+        "chai-expect"
     ],
     "env": {
         "browser": true,
-        "node": true
+        "node": true,
+        "jest/globals": true
     },
     "rules": {
         "array-callback-return": 1,

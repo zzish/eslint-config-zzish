@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zzish",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Eslint Zzish Configuration",
   "main": "index.js",
   "scripts": {

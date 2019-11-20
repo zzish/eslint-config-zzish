@@ -108,6 +108,8 @@ module.exports = {
         "quotes": [1, "double"],
         "radix": 1,
         "react/forbid-prop-types": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "react/jsx-boolean-value": 1,
         "react/jsx-closing-bracket-location": 1,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],

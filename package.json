@@ -23,7 +23,7 @@
     "homepage": "https://github.com/Zzish/eslint-config-zzish#readme",
     "dependencies": {
         "babel-eslint": "^10.0.1",
-        "eslint": "^6.2.2",
+        "eslint": "^6.8.0",
         "eslint-config-airbnb": "^18.0.1",
         "eslint-plugin-chai-expect": "^2.0.1",
         "eslint-plugin-flowtype": "^4.2.0",
@@ -31,7 +31,7 @@
         "eslint-plugin-jest": "^22.6.4",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-promise": "^4.1.1",
-        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-react": "^7.17.0",
         "eslint-plugin-react-hooks": "^1.7.0"
     }
 }

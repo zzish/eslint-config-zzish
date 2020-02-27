@@ -133,7 +133,7 @@ module.exports = {
     "react/jsx-indent": [1, 4],
     "react/jsx-indent-props": [1, 4],
     "react/jsx-no-bind": 0,
-    "react/jsx-space-before-closing": 1,
+    "react/jsx-tag-spacing": ["warn", { beforeSelfClosing: "always" }],
     "react/no-multi-comp": 1,
     "react/prefer-es6-class": 1,
     "react/prefer-stateless-function": 0,

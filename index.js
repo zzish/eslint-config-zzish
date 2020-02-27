@@ -1,15 +1,17 @@
 module.exports = {
     "extends": [
-        "eslint-config-airbnb",
-        "plugin:promise/recommended"
+        "airbnb-typescript",
+        "airbnb/hooks",
+        "plugin:promise/recommended",
+        "plugin:import/typescript"
     ],
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": './tsconfig.json',
+    },
     "plugins": [
-        "react",
         "flowtype",
-        "promise",
-        "jest",
-        "chai-expect"
+        "promise"
     ],
     "env": {
         "browser": true,
@@ -49,7 +51,8 @@ module.exports = {
         "import/no-extraneous-dependencies": 0,
         "import/no-named-as-default": 0,
         "import/prefer-default-export": 0,
-        "indent": [1, 4, {"SwitchCase": 1}],
+        "import/extensions": 0,
+        "indent": [1, 4, { "SwitchCase": 1 }],
         "jsx-a11y/href-no-hash": 0,
         "jsx-quotes": 1,
         "key-spacing": 1,
@@ -112,7 +115,7 @@ module.exports = {
         "react-hooks/exhaustive-deps": "warn",
         "react/jsx-boolean-value": 1,
         "react/jsx-closing-bracket-location": 1,
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
         "react/jsx-indent": [1, 4],
         "react/jsx-indent-props": [1, 4],
         "react/jsx-no-bind": 0,

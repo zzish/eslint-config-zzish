@@ -6,11 +6,8 @@ module.exports = {
         "plugin:import/typescript"
     ],
     "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": './tsconfig.json',
-    },
+
     "plugins": [
-        "flowtype",
         "promise"
     ],
     "env": {
@@ -44,8 +41,6 @@ module.exports = {
         "default-case": 1,
         "dot-notation": 1,
         "eqeqeq": [1, "allow-null"],
-        "flowtype/define-flow-type": 1,
-        "flowtype/use-flow-type": 1,
         "forbid-prop-types": [0, { "forbid": [] }],
         "guard-for-in": 1,
         "import/no-extraneous-dependencies": 0,

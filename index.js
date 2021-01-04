@@ -103,7 +103,6 @@ module.exports = {
         "no-unneeded-ternary": 1,
         "no-unreachable": 1,
         "no-unused-expressions": 1,
-        "no-unused-vars": 1,
         "no-use-before-define": 0,
         "no-useless-constructor": 1,
         "no-var": 1,

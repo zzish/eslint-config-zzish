@@ -146,5 +146,6 @@ module.exports = {
 
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/FAQ.md#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
         "no-undef": 0,
+        "@typescript-eslint/explicit-module-boundary-types": "off",
     },
 };
